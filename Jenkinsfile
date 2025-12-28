@@ -4,7 +4,7 @@ stages {
   stage('Checkout') {
     steps {
 // Checkout code from the Git repository
-     sh 'echo checking out jenkins'
+     sh 'echo checking out'
    }
   }
 stage('Build') {
@@ -16,7 +16,7 @@ stage('Build') {
 stage('Deploy') {
   steps {
   // Deploy the application (replace with your deployment commands)
-   sh 'echo "Deploying the application" jenkins'
+   sh 'echo "Deploying the application"'
    }
   }
  }
